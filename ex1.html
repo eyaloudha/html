@@ -1,75 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        
-        header {
-            background-color: lightblue ;
-            text-align: center;
-            font-size: larger;
-            color: aliceblue;
-        }
-        p{
-            font-family: 'Courier New', Courier, monospace;
-        }
-        
-    </style>
+
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eyaloudha</title>
 
 </head>
 <body style="background-color: beige;">
-   <header><h2>ABOUT ME</h2></header>
-   <form>
-    <fieldset>
-        <p><img src="c:\Users\EYA\Desktop\projet html\pic4.jpg.png" alt="my pic" style="float: right;">
-        </p>
-    <h2 style="text-align: center;">Eya Loudha</h2>
-    <h4 style="text-align: center;">3rd year high school student - Attarine highschool ariana</h4>
-    <p>
-        <ul>
-        <li><b> ORIGIN:</b>Tunisian</li>
-        <li><b>BIRTH DATE:</b> 2/10/2006</li>
-        <li><b>ZODIAC SIGN:</b> libra</li>
-        <li><b>MBTI:</b>ENFP-A</li>
-        <li><b>ACADEMIC LEVEL:</b>3rd year of HIGHSCHOOL , computer science majority</li>
-        <li><b>HIGHSCHOOL GRADUATION YEAR:</b>july 2025</li>
-        <li><b>FAVORITE SUBJECT:</b> math</li>
-        <li><b>SPOKEN LANGUAGES:</b> </br>
-            <label for="file">Arabic (native speaker):</label>
-<progress id="file" value="100" max="100"> 100% </progress>
-         </br>
-         <label for="file">English:</label>
-         <progress id="file" value="80" max="100"> 80% </progress>
+
+     <!--titre de la page-->
+    <header>
+        <h1>Eya Loudha</h1>
+        <p><h4>3rd year high school student - Attarine highschool ariana</h4></p>
+    </header>
+
+    <div id="global">
+    <!--cote gauche de la page-->
+    <aside>
+        <div id="gauche">
+    <!--image-->
+            <img src="c:\Users\EYA\Desktop\projet html\pic4.jpg.png" alt="my pic"  width="220px" ><br>
+                
+    <!--contact-->
+            <h4>CONTACT:</h4>   
+            <p>         
+            <b>phone number</b></br>
+            +21640885325
+            <br> <b>email</b></br>
+            eya.loudhaa@gmail.com
+            </p>
+
+    <!--social media-->
+        <h4>SOCIAL MEDIA:</h4>
+
+    <!--facebook-->
+            <a href="https://www.facebook.com/eya.loudha.5">
+            <img src= "c:\Users\EYA\Desktop\projet html\faceb.png"
+            alt="facebook" style="width: 42px;height: 42px;"></a>
+
+    <!--insta-->
+            <a href="https://www.instagram.com/eyaloudha/">
+            <img src="c:\Users\EYA\Desktop\projet html\insta.png"
+            alt="instagram" style="width: 42px;height: 42px;"></a>
+
+   
+        </div>
+    </aside>
+
+    <!--main content-->
+    <main>
+        <div id="droite">
+    <!--about me-->
+            <h4>ABOUT ME:</h4>
+            <p>
+            <b>Origin:</b> Tunisian<br>
+            <b>Birth Date:</b> 2/10/2006<br>
+            <b>Zodiac Sign:</b> Libra<br>
+            <b>Mbti:</b> ENFP-A<br>
+            <b> Academic Level:</b> 3rd year of highschool, Computer Science Majority<br>
+            <b> Highschool Graduation Year:</b> July 2025<br>
+            <b>Favorite Subject:</b> Math
+            </p>
+      
+
+   
+    <!--education-->
+        <h4>EDUCATION:</h4>
+    <ul>
+    <!--schools liste-->
+        <li><b>Elementry School:</b> Les Epis De L'espoir Manzah 5</li>
+        
+        <li><b>Middle School:</b> Ibnou Kholdoun Ariana</li>
+      
+    
+        <li><b>Highschool: </b> Rue De El Attarine Ariana </li>
+     
+    </ul>
+
+    <ul>
+    <!--date liste-->
+        <li><b>2011-2018</b></li>
+        <li><b> 2018-2021</b></li>
+        <li><b>2021-2025</b></li>
+
+     </ul>
+
+       
+           
+    <!--languages-->
+        <h4>LANGUAGES:</h4>
+        <p>
+        <label for="file"><b>Arabic:</b></label>
+        <progress id="file" value="100" max="100"> 100% </progress>
         </br>
-        <label for="file">French:</label>
+        <label for="file"><b>English:</b></label>
+        <progress id="file" value="80" max="100"> 80% </progress>
+        </br>
+        <label for="file"><b>French:</b></label>
         <progress id="file" value="70" max="100">702% </progress> 
         </br>
-        <label for="file">Japenesse:</label>
+        <label for="file"><b>Japenesse:</b></label>
         <progress id="file" value="40" max="100"> 40% </progress>
-    </br>
-        <label for="file">Spanish:</label>
+        </br>
+        <label for="file"><b>Spanish:</b></label>
         <progress id="file" value="15" max="100"> 15% </progress>
-   
-      <li><b>FAVORITE LANGUAGES:</b> japenessse</li>
-        <li><b>FAVORITE COUNTRY:</b> Korea</li>
-        <li><b>SPORTS:</b>ex dancer, ex gymnastic player, ex handball player, volleyball and fitness</li>
-       <li> <b>GYM STATISTICS:</b> </br>
-        height: 154cm </br>
-        bw: 52kg </br>
-        deadlift: 55kg</br>
-        hipthrust: 110kg</br>
-        bench: 30kg</br>
-        leg press: 80kg</br>
-        squat: haven't tried a pr yet
-        </li>
-        <li><b>HOBBIES:</b> music, reading or watching shows(fatnasy,mystery,mafia,crime,investigation, enemies to lover and partners in crime are my favorite), fitness and volleyball. </li>
-        <li><b>RANDOM THINGS ABOUT ME</b> love sleeping, pet owner ( i have a cat, 2 turtules and i used to have a bird but it passed away) ,lazy but athletic, academic validation chaser, 
-            ambitious and hardworker, moody , love peace and quiet , red tea addict, love gossiping and tea spelling, i found my happiness in peace and success.</li>
-    </ul>
-    </p>
-</fieldset>
-</form>
+        </p>
+
+
+
+    <!--skills-->
+  
+
+        <h4>SKILLS</h4>
+        <p><b>GYMSTATICS:</b><br>
+        <b>Height:</b> 154cm </br>
+        <b>BW:</b> 52kg </br>
+        <b>Deadlift:</b> 55kg</br>
+        <b>Hipthrust:</b> 110kg</br>
+        <b>Bench:</b> 30kg</br>
+        <b>Leg press:</b> 80kg</br>
+        <b>Squat:</b> haven't tried a pr yet
+        </p>
+
+    <!--hobbies-->
+        <h4>HOBBIES:</h4> 
+        <p>Music, sleeping, reading or watching shows(fatnasy,mystery,mafia,crime,investigation, 
+        enemies to lover and partners in crime are my favorite), fitness and volleyball. </p>
+       
+    <!--random abt me-->
+        <h4>RANDOM THINGS ABOUT ME</h4> 
+        <p>Love sleeping, lazy but athletic, academic validation chaser, ambitious and hardworker,
+        moody , love peace and quiet , red tea addict, love gossiping and tea spelling, i found my
+        happiness in peace and success and i'm pet owner ( i have a cat, 2 turtules and i used to 
+        have a bird but it passed away).</p>
+    
+</div>
+</main>
+</div>
 </body>
 </html>
